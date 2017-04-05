@@ -8,6 +8,6 @@ To set this up, please run the following commands in your terminal
   
 You should be ready to start writing and running tests
     
-Once that's done, run ```npm tets``` to kick off the test
+Once that's done, run ```npm test``` to kick off the test
 
 

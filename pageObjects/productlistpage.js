@@ -1,5 +1,7 @@
 var assert = require('chai').assert;
 
+//TODO: Improve code further to keep all selectors by pageobject and pass commands
+
 export const selectTops = () => {
     var tops = $('.ImageList-image')
     tops.click()
