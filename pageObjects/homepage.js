@@ -4,4 +4,6 @@ export const gotoPage = () => {
 
 export const hasLogo = () => {
     browser.isVisible(".BrandLogo-img")
+
+
 }

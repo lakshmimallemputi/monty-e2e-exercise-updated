@@ -1,3 +1,18 @@
-/**
- * Created by Ravee on 04/04/2017.
- */
+
+export const filterByColour = () => {
+
+    browser.click("//div[@class='Refinements is-shown']//span[contains(text(),'Colour')]")
+
+}
+
+export const filterByColourBlack = () => {
+
+    browser.click("//div[@class='Refinements is-shown']//span[contains(text(),'black')]")
+}
+
+export const apply = () => {
+
+    browser.click(".Button.Refinements-applyButton")
+
+
+}
